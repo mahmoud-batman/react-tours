@@ -37,23 +37,32 @@
 
 **1- Git :**
 
-- Initialize the local repo.
+- Initialize the local repo `.git`
 
-  > git init
+  > git init  
+  > (`first time only`)
 
-- Add files to Staging Area
+* Add files to Staging Area
 
   > git add .
 
-- Commit Changes
+* Commit Changes
 
   > git commit -m
 
   - \- m : message
 
-  > add remote url
+* create a new repo on github then get the following command
+
+  > git remote add origin url
+  > (`first time only`)
 
 - Push changes to remote repo
   > git push -u origin master
 
-**1- Git :**
+**your project is ready on github**
+
+**2- Netlify :**
+
+- new site from git and follow the steps
+- when you make changes on github
